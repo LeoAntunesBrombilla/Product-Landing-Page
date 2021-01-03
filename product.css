@@ -7,16 +7,26 @@
   align-content: center;
   position: relative;
   top: 100px;
-  z-index:0;
+  z-index: 0;
 }
 
 #nav-bar {
-  position: fixed; 
+  position: fixed;
   width: 100%;
-  z-index:1;
+  z-index: 1;
 }
 
 #home {
+  position: relative;
+  top: 100px;
+}
+
+#email {
+  position: relative;
+  top: 100px;
+}
+
+#submit {
   position: relative;
   top: 100px;
 }
@@ -27,5 +37,5 @@
   margin: auto;
   display: flex;
   justify-content: center;
-  align-content: center; 
+  align-content: center;
 }
