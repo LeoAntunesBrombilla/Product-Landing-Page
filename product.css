@@ -1,0 +1,14 @@
+#videosection {
+  padding: 20px 0px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#prices {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center; 
+}

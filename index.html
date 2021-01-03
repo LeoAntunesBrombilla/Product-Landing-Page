@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="product.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <!-- The header and inside the navbar using bootstrap -->
+      <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-bar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src="https://freelogo-assets.s3.amazonaws.com/sites/all/themes/freelogoservices/images/lps/lp1/l12_EN.png"
+                alt="company logo"
+                width="100"
+                height="50"
+                class="d-inline-block align-center"
+                id="header-img"
+              />
+              Bootstrap
+            </a>
+            <a class="navbar-brand nav-link" href="#home">Home</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active nav-link"
+                    aria-current="page"
+                    href="#videosection"
+                    >Presentation</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#prices">Pricing</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="container d-flex align-items-start" id="home">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        magnam odio esse maiores doloremque odit asperiores accusantium iure!
+        Deleniti sequi ducimus explicabo fuga earum eligendi accusantium
+        repellat hic qui magnam? Tempore veritatis deleniti placeat voluptates,
+        harum voluptas optio repellat illum? Accusantium quaerat tenetur
+        voluptate veritatis quam ipsum, voluptatum sed illum itaque explicabo
+        quae cupiditate voluptatem animi optio ex suscipit molestiae! Hic
+        recusandae illo praesentium facere. Omnis amet totam fuga perspiciatis
+        inventore reprehenderit repellat ut officia consequatur odio deserunt
+        modi recusandae explicabo veritatis, blanditiis itaque impedit est!
+        Culpa deserunt quam cumque! Corrupti, mollitia ullam tempora
+        exercitationem amet repellendus odio dolorem magni quas corporis
+        necessitatibus fuga repellat. Magni vel laborum nihil. Sapiente id natus
+        tempore ratione maxime sed temporibus impedit fuga quaerat. Blanditiis,
+        nostrum! Rerum, nisi! Aliquam, voluptates quo? Voluptate fugit ad
+        aliquam sapiente, minima facere saepe ab necessitatibus nam reiciendis
+        distinctio magni alias beatae veritatis tempora cum ipsa, corrupti
+        officia iusto?
+      </div>
+
+      <div id="videosection">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/12zfutD9JxQ"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="container" id="prices">
+        <div
+          class="mb-3 d-flex justify-content-center text-center row price-cards"
+        >
+          <div class="col-md-12 col-lg-3 card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">No computer</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $0 <small class="text-muted">Free</small>
+              </h1>
+              <p>Computer X</p>
+              <button
+                type="button"
+                class="btn btn-lg btn-block btn-outline-primary"
+              >
+                Buy
+              </button>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-3 card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Nvidia</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $150 <small class="text-muted">Student</small>
+              </h1>
+              <p>Computer Y</p>
+              <button type="button" class="btn btn-lg btn-block btn-primary">
+                Buy
+              </button>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-3 card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">BVrex</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $290 <small class="text-muted">School</small>
+              </h1>
+              <p>Computer W</p>
+              <button type="button" class="btn btn-lg btn-block btn-primary">
+                Contact us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-flex justify-content-center text-center">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <label for="email">Email address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email here !"
+          />
+          <input
+            type="submit"
+            action="https://www.freecodecamp.com/email-submit"
+            id="submit"
+          />
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
