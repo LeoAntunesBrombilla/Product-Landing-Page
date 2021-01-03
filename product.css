@@ -1,12 +1,29 @@
 #videosection {
+  overflow: visible;
   padding: 20px 0px;
   margin: auto;
   display: flex;
   justify-content: center;
   align-content: center;
+  position: relative;
+  top: 100px;
+  z-index:0;
+}
+
+#nav-bar {
+  position: fixed; 
+  width: 100%;
+  z-index:1;
+}
+
+#home {
+  position: relative;
+  top: 100px;
 }
 
 #prices {
+  position: relative;
+  top: 100px;
   margin: auto;
   display: flex;
   justify-content: center;
