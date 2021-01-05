@@ -1,3 +1,5 @@
+/* First make the video on the center, and setting the z-index to 0. */
+
 #videosection {
   overflow: visible;
   padding: 20px 0px;
@@ -6,9 +8,11 @@
   justify-content: center;
   align-content: center;
   position: relative;
-  top: 100px;
+  top: 110px;
   z-index: 0;
 }
+
+/* making the nav-bar fixed with the z-index of 1. */
 
 #nav-bar {
   position: fixed;
@@ -16,24 +20,23 @@
   z-index: 1;
 }
 
+/* making the home text, the email form and the price cards adjust to the height.*/
+
 #home {
   position: relative;
   top: 100px;
+  text-align: left;
 }
 
-#email {
+form {
   position: relative;
-  top: 100px;
-}
-
-#submit {
-  position: relative;
-  top: 100px;
+  top: 90px;
+  margin-bottom: 20px;
 }
 
 #prices {
   position: relative;
-  top: 100px;
+  top: 110px;
   margin: auto;
   display: flex;
   justify-content: center;
